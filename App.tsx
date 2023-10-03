@@ -72,6 +72,7 @@ function App(): JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+        <Text>SJ CI/CD Test Application</Text>
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
